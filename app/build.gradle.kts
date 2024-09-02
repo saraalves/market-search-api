@@ -54,6 +54,7 @@ android {
 
 dependencies {
 
+    implementation(libs.squareup.interceptor)
     implementation(libs.squareup.retrofit)
     implementation(libs.squareup.adapter.rxjava2)
     implementation(libs.squareup.converter.gson)
