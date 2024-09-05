@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginVertical="@dimen/dim_8_dp"
+    android:layout_marginHorizontal="@dimen/dim_8_dp"
+    android:clickable="true"
+    android:focusable="true"
+    app:cardCornerRadius="@dimen/dim_10_dp"
+    android:theme="@style/Theme.MaterialComponents.DayNight"
+    android:backgroundTint="@color/colorPrimaryDark">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ctlList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/thumbnail"
+            android:layout_width="@dimen/dim_80_dp"
+            android:layout_height="@dimen/dim_80_dp"
+            android:layout_marginHorizontal="@dimen/dim_8_dp"
+            android:layout_marginVertical="@dimen/dim_8_dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:shapeAppearanceOverlay="@style/RoundedSquare" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dim_16_dp"
+            android:layout_marginTop="@dimen/dim_8_dp"
+            android:textSize="@dimen/dim_20_sp"
+            android:ellipsize="end"
+            android:textColor="#ffffffff"
+            app:layout_constraintStart_toEndOf="@id/thumbnail"
+            app:layout_constraintTop_toTopOf="@id/thumbnail"
+            app:layout_constraintEnd_toStartOf="@id/iconButton"
+            tools:text="\@username" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/dim_16_dp"
+            android:layout_marginBottom="@dimen/dim_8_dp"
+            android:textSize="@dimen/dim_16_sp"
+            android:textColor="#caced4"
+            app:layout_constraintStart_toEndOf="@id/thumbnail"
+            app:layout_constraintTop_toBottomOf="@id/title"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:text="Name Surname" />
+
+        <ImageButton
+            android:id="@+id/iconButton"
+            android:layout_width="@dimen/dim_24_dp"
+            android:layout_height="@dimen/dim_24_dp"
+            android:background="@android:color/transparent"
+            android:layout_marginHorizontal="@dimen/dim_8_dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            android:src="@drawable/ic_arrow_fg"/>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>

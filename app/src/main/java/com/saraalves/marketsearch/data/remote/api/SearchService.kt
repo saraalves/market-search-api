@@ -9,7 +9,7 @@ interface SearchService {
     @GET("sites/{site_id}/search")
     suspend fun getResultsSearch(
         @Path("site_id") siteId: String,
-        @Query("q") query: String,
+        @Query("q") query: String?,
         @Query("offset") offset: Int
     ): SearchResponse
 }
