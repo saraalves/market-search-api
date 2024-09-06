@@ -28,7 +28,7 @@ utilizável para Ui, o aplicativo precisa atualizar todos os modelos. Usar model
 ótima chave para criar software escalável e sustentável.
 
 [Lifecycle](https://developer.android.com/topic/libraries/architecture/lifecycle) - Componentes com reconhecimento de ciclo de vida realizam ações em resposta 
-a uma alteração no status do ciclo de vida de outro componente, como atividades e fragmentos. 
+a uma alteração no status do ciclo de vida de outro componente, como atividades e fragments. 
 Esses componentes ajudam a produzir um código mais bem organizado e, geralmente, mais leve, 
 que é mais fácil de manter.
 
