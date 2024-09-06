@@ -4,8 +4,6 @@ O aplicativo Market Search Api é construído em Clean Architecture e MVVM, que 
 personagens, episodios e localização.
 O aplicativo consome [Market Search Api](https://api.mercadolibre.com/sites/$SITE_ID/search?q=Motorola%20G6)
 
-# Arquitetura de aplicativo
-
 ### Camada de dados:
 A camada de dados inclui dados do aplicativo e lógica de negócios. A camada de dados contém APIs, 
 repositórios, e dtos/mappers.
