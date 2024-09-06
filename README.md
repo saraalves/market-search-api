@@ -16,7 +16,7 @@ de Ui e de dados. A camada de domínio inclui casos de uso e entidades.
 
 ### Camada de Ui/Presentation:
 A camada de Ui exibe dados do aplicativo na tela e deixa a Ui pronta para interagir com os usuários.
-Ela contém estado relacionado à IU e lógica de Ui. A camada de Ui inclui viewmodels, fragmentos,
+Ela contém estado relacionado à IU e lógica de Ui. A camada de Ui inclui viewmodels, fragments,
 atividades, componentes.
 
 ## Importância do mapeamento de dados entre camadas
