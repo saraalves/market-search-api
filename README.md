@@ -7,8 +7,8 @@ O aplicativo consome [Market Search Api](https://api.mercadolibre.com/sites/$SIT
 # Arquitetura de aplicativo
 
 ### Camada de dados:
-A camada de dados inclui dados do aplicativo e lógica de negócios. A camada de dados contém APIs,
-repositórios, e mappers.
+A camada de dados inclui dados do aplicativo e lógica de negócios. A camada de dados contém APIs, 
+repositórios, e dtos/mappers.
 
 ### Camada de domínio:
 A camada de domínio é responsável por manipular a lógica de negócios e fica entre as camadas
