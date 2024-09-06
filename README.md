@@ -1,6 +1,6 @@
 # Arquitetura de aplicativo
 
-O aplicativo Market Search MVVM é construído em Clean Architecture e MVVM, que mostra listas de
+O aplicativo Market Search Api é construído em Clean Architecture e MVVM, que mostra listas de
 personagens, episodios e localização.
 O aplicativo consome [Market Search Api](https://api.mercadolibre.com/sites/$SITE_ID/search?q=Motorola%20G6)
 
